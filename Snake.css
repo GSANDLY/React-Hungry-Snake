@@ -1,0 +1,23 @@
+/* 游戏区域 */
+.snake-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    border: 1px solid #5e3737;
+}
+
+/* 蛇的每个肢节 */
+.snake-container .snake-item {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #486553;
+}
+
+/* 食物 */
+.snake-container .food {
+    background-color: rgb(10, 234, 159);
+    border: none;
+}
